@@ -36,6 +36,7 @@
   --baby-blue: #7ba1cc;
   --grey: #60656f;
   --light-grey: #d9d9d9;
+  --blue: #8695c1;
 }
 .black {
   color: black;
@@ -50,6 +51,7 @@
 }
 .hello-heading h1 {
   padding-top: 5rem;
+  padding-bottom: 2rem;
 }
 .h1emoji {
   font-size: 80px;
@@ -67,17 +69,113 @@ img.logo {
 }
 .nav-link {
   padding: 1rem 3rem 1rem 3rem !important;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-link:visited {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+}
+
+.nav-link:active {
+  text-decoration: none;
 }
 
 .header {
   background-color: #7ba1cc50;
   margin: 0;
+  padding-bottom: 10rem;
 }
 .space-needle {
   align-content: center;
   padding-bottom: 2rem;
 }
 .space-needle img {
-  height: 600px;
+  max-height: 600px;
   width: auto;
+}
+
+.mountains img {
+  max-width: 300px;
+  height: auto;
+}
+
+.about {
+  background-color: rgb(198, 203, 212);
+  margin: 0;
+}
+
+#about .col-md-9 {
+  padding-top: 1.5rem;
+}
+
+.about-text {
+  padding-top: 0.5rem;
+}
+
+.about-text h4 {
+  padding: 0.5rem;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+}
+
+.experience {
+  padding-top: 2rem;
+}
+
+.about img {
+  max-width: 200px;
+  height: auto;
+  padding-right: 1rem;
+}
+
+.about {
+  padding: 4rem 2rem 6rem 4rem;
+}
+
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+
+a.link:visited {
+  text-decoration: none;
+}
+
+a.link:hover {
+  text-decoration: none;
+}
+
+a.link:active {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .space-needle img {
+    max-height: 0px;
+  }
+  .hello-world {
+    font-size: 75px;
+    align-items: center;
+  }
+  .h1emoji {
+    font-size: 50px;
+  }
+  .header h1 {
+    align-items: center;
+  }
+}
+
+.experience-text h3 {
+  padding-top: 0.5rem;
+}
+
+.experience-text h4 {
+  padding: 0.25rem;
 }
